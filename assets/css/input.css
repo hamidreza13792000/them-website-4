@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family:vazir;
+    src: url(../font/vazirfont/Vazir-Bold-FD-WOL.ttf);
+    font-weight:bold;
+
+}
+
+@font-face {
+    font-family:vazir;
+    src: url(../font/vazirfont/Vazir-Medium-FD-WOL.ttf);
+    font-weight:500;
+
+}
+@font-face {
+    font-family:vazir;
+    src: url(../font/vazirfont/Vazir-Light-FD-WOL.ttf);
+    font-weight:300;
+}
+body{
+    font-family: "vazir";
+}
+#parentinput{
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+#submenuinputheaderserchbox{
+    display: none;
+}
